@@ -1,0 +1,22 @@
+.sampul{
+    height: 100px;
+    width: 80px;
+}
+.custom-icon {
+    font-size: 36px;
+    /* Ganti dengan ukuran yang diinginkan */
+    color: white;
+}
+
+.profil span {
+    font-family: 'Your Preferred Font', sans-serif;
+    /* Ganti dengan font yang diinginkan */
+    font-weight: bold;
+    /* Teks menjadi tebal */
+    font-size: 17px;
+    /* Ganti dengan ukuran font yang diinginkan */
+    color: white;
+    /* Atur warna teks menjadi putih */
+    display: inline;
+    /* Teks diatur menjadi blok untuk memisahkan ikon dan teks */
+}
