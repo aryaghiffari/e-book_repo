@@ -1,59 +1,47 @@
-# CodeIgniter 4 Framework
+# Ebook Repository
 
-## What is CodeIgniter?
+- Nama = Arya Ghiffari
+- NIM = 210511004
+- Prodi = Teknik Informatika
+- Universitas Muhammadiyah Cirebon
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Ebook Repository adalah sebuah aplikasi berbasis web yang dapat menyimpan, dan membaca e-book. kelebihan aplikasi ini adalah mudah digunakan dan memberikan kenyamanan dalam menyimpan, mencari dan membaca e-book.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Aplikasi ini memiliki 2 (dua) otoritas login yaitu
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+- admin
+- pengguna
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+Admin memiliki hak untuk menambahkan buku, membaca buku, edit, dan menghapus buku. Sedangkan Pengguna hanya bisa membaca buku yang sudah di tambahkan oleh admin.
 
-## Important Change with index.php
+## Penggunaan Ebook Repository
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+#### Register
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- register untuk membuat akun
+  ![image.png](https://raw.githubusercontent.com/aryaghiffari/e-book_repo/master/doc/regist.png)
 
-**Please** read the user guide for a better explanation of how CI4 works!
+#### login
 
-## Repository Management
+- login setelah membuat akun
+  ![image.png](https://raw.githubusercontent.com/aryaghiffari/e-book_repo/master/doc/login.png)
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+#### Home
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+- Tampilan Home, setelah berhasil login
+  ![image.png](https://raw.githubusercontent.com/aryaghiffari/e-book_repo/master/doc/rumah.png)
 
-## Contributing
+#### List semua buku
 
-We welcome contributions from the community.
+- Daftar semua buku yang sudah ditambahkan admin
+  ![image.png](https://raw.githubusercontent.com/aryaghiffari/e-book_repo/master/doc/daftar.png)
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+#### Detail Buku (Admin)
 
-## Server Requirements
+- Detail buku pada menu admin
+  ![image.png](https://raw.githubusercontent.com/aryaghiffari/e-book_repo/master/doc/dtail.png)
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+#### Detail Buku (Pengguna)
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- Detail buku pada menu pengguna
+  ![image.png](https://raw.githubusercontent.com/aryaghiffari/e-book_repo/master/doc/dtail2.png)
